@@ -3,7 +3,7 @@ import axios from 'axios';
 
 function Search({ username, handleInputChange, setUserData, setError, setUsername }) {
   const history = useNavigate();
-  const handleSearch = async () => {
+  const handleSearchProfile = async () => {
     try {
       const response = await axios.get(
         `https://api.github.com/users/${username}`
@@ -23,11 +23,11 @@ function Search({ username, handleInputChange, setUserData, setError, setUsernam
       <div>
         <input
           type="text"
-          placeholder="Enter GitHub username"
+          placeholder="Your GitHub username..."
           value={username}
           onChange={handleInputChange}
         />
-        <button onClick={handleSearch}>Search</button>
+        <button onClick={handleSearchProfile}>Search</button>
       </div>
     </>
   );
