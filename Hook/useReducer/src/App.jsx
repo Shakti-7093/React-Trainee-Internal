@@ -2,7 +2,7 @@ import { useReducer } from "react";
 
 const initialState = 0;
 
-const reduser = (state, action) => {
+const reducer = (state, action) => {
   console.log(state, action);
   if(action.type === "INCREMENT"){
     return state + 1;
@@ -17,7 +17,7 @@ const reduser = (state, action) => {
 
 function App(){
 
-  const [state, despatch] = useReducer(reduser, initialState)
+  const [state, despatch] = useReducer(reducer, initialState)
   return (
     <>
       <h1>{state}</h1>
