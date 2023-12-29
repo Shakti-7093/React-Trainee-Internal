@@ -1,28 +1,29 @@
-import React from 'react'
+import React from 'react';
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
     <div>
         <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
           <div className="container-fluid">
-            <a className="navbar-brand" href="/">Shakti Singh Chundawat</a>
+            <Link className="navbar-brand" to="/">Shakti Singh Chundawat</Link>
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span className="navbar-toggler-icon"></span>
             </button>
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
               <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                 <li className="nav-item">
-                  <a className="nav-link active" aria-current="page" href="/">Home</a>
+                  <Link className="nav-link active" aria-current="page" to="/">Home</Link>
                 </li>
                 <li className="nav-item dropdown">
-                  <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <Link className="nav-link dropdown-toggle" to="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                     Task
-                  </a>
+                  </Link>
                   <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <li><a className="dropdown-item" href="/Counter">Counter</a></li>
-                    <li><a className="dropdown-item" href="/Form">Form</a></li>
-                    <li><a className="dropdown-item" href="/NameList">NameList</a></li>
-                    <li><a className="dropdown-item" href="/UserProfile">User Profile</a></li>
+                    <li><Link className="dropdown-item" to="/Counter">Counter</Link></li>
+                    <li><Link className="dropdown-item" to="/Form">Form</Link></li>
+                    <li><Link className="dropdown-item" to="/NameList">NameList</Link></li>
+                    <li><Link className="dropdown-item" to="/UserProfile">User Profile</Link></li>
                   </ul>
                 </li>
               </ul>
