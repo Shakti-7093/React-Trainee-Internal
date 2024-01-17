@@ -1,0 +1,19 @@
+.nav{
+  display: flex;
+  background-color: rgb(65, 59, 59);
+  margin: 0;
+}
+.nav li{
+  list-style: none;
+}
+
+.nav li a{
+  display: block;
+  text-decoration: none;
+  color: white;
+  padding: 14px 16px;
+}
+
+.nav li a:hover{
+background-color: gray;
+}
