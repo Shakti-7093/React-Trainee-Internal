@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  background: #f8f8f8;
+}
+
+input {
+  margin-top: 20px;
+  margin-left: 20%;
+  text-align: center;
+  width: 50%;
+  height: 40px;
+  border: 0.5px solid #979797;
+  border-radius: 20px;
+}
+
+table {
+  margin: 0 auto;
+  margin-top: 20px;
+  border-collapse: collapse;
+  width: 90%;
+  text-align: center;
+}
+
+td,
+th {
+  border: 1px solid #979797;
+  text-align: left;
+  padding: 8px;
+}
