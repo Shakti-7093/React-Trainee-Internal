@@ -1,0 +1,25 @@
+*{
+  margin: 0% !important;
+  padding: 0% !important;
+  box-sizing: border-box !important;
+  /* overflow-x: hidden !important; */
+}
+
+body {
+  background-color: black !important ;
+}
+div{
+  height: 100px;
+  width: 300px;
+  text-align: center;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+h4,
+h1{
+  color: rgb(123, 180, 180) !important;
+  text-shadow: 3px 4px 5px teal;
+}

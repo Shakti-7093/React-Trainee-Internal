@@ -1,0 +1,13 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+.bg-color{
+  /* background-color: lightgray; */
+  border-radius: 3px;
+  box-shadow: 2px 2px 2px 2px lightgray;
+  border: 1px solid lightgray;
+  height: 400px;
+}
