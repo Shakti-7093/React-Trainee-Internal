@@ -1,0 +1,51 @@
+.container {
+  width: 100%;
+}
+
+.them-display {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.them-display button {
+  margin-top: 36px;
+  height: 5vh;
+  border: none;
+  width: 8%;
+  border-radius: 15px;
+  background: #8cd7f5;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.them-display button:hover {
+  box-shadow: 2px 2px 22px 0px #648bff;
+}
+
+.content {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.box {
+  width: 20%;
+  height: 20vh;
+  background: #aaaaaa;
+  margin-bottom: 20px;
+  margin-left: 545px;
+  border-radius: 15px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Light {
+  background: #fff;
+  color: #000;
+}
+
+.Dark {
+  background: #000;
+  color: #fff;
+}
