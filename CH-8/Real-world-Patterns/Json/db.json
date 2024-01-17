@@ -1,0 +1,23 @@
+{
+  "register": [
+    {
+      "id": "d581",
+      "username": "shakti7093",
+      "email": "webkit7093@gmail.com",
+      "password": "Shakti"
+    },
+    {
+      "id": "37d0",
+      "username": "Shakti7093",
+      "email": "shaktisinghchundawat7093@gmail.com",
+      "password": "Shakti"
+    }
+  ],
+  "task": [
+    {
+      "id": "cce2",
+      "title": "demo",
+      "date": "2024-01-14"
+    }
+  ]
+}
