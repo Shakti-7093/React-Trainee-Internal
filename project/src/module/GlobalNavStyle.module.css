@@ -1,0 +1,40 @@
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+a {
+  margin-left: 15px;
+  text-decoration: none;
+  color: black;
+}
+
+.active {
+  text-decoration: underline black;
+  color: rgb(0, 0, 0);
+}
+
+.active:hover {
+  text-decoration: underline black;
+  color: rgb(0, 0, 0);
+}
+
+.active:visited {
+  text-decoration: underline black;
+  color: rgb(0, 0, 0);
+}
+
+.active:active {
+  text-decoration: underline black;
+  color: rgb(0, 0, 0);
+}
+
+.active:focus {
+  text-decoration: underline black;
+  color: rgb(0, 0, 0);
+}
+
+.active:link {
+  text-decoration: underline black;
+  color: rgb(0, 0, 0);
+}

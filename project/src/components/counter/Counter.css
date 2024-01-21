@@ -1,0 +1,30 @@
+.counter {
+    text-align: center;
+}
+
+.btn {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(3, 0fr);
+    place-content: center;
+}
+
+button {
+    width: 100px;
+    padding: 10px;
+    border: none;
+    box-shadow: 0px 3px 8px -2px rgb(61, 207, 255);
+    cursor: pointer;
+    border-radius: 20px;
+    transition: 1s;
+    font-size: 20px;
+}
+
+button:hover {
+    width: 110px;
+    margin-top: -12px;
+    margin-bottom: 12px;
+    box-shadow: 0px 4px 8px -2px rgb(61, 207, 255);
+    transition: 1s;
+    font-size: 25px;
+}
