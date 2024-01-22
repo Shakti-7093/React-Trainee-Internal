@@ -4,6 +4,7 @@ import Layout from "./module/Layout";
 import UserForm from "./module/User/UserForm";
 import UserList from "./module/User/UserList";
 import Counter from "./components/counter/Counter";
+import DragDrop from "./components/Drag-Drop/DragDrop";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
             element={<UserForm isEditForm={true} />}
           ></Route>
           <Route path="/counter" element={<Counter />}></Route>
+          <Route path="/drag-and-drop" element={<DragDrop />}></Route>
         </Route>
       </Routes>
     </BrowserRouter>
