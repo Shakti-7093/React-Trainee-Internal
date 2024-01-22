@@ -17,6 +17,11 @@ const GlobalNav = () => {
       id: 3,
       to: "/counter",
       value: "Counter",
+    },
+    {
+      id: 4,
+      to: "/drag-and-drop",
+      value: "Upload-files"
     }
   ];
   return (
